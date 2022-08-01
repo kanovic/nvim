@@ -1,0 +1,17 @@
+vim.opt.clipboard = "unnamedplus" -- allow neovim to access the system clipboard
+vim.opt.number = true
+vim.opt.relativenumber = false
+vim.opt.scrolloff = 8
+vim.opt.sidescrolloff = 8
+vim.opt.mouse = "a"
+vim.opt.shiftwidth = 2
+vim.opt.tabstop = 2
+vim.opt.cursorline = true
+vim.opt.numberwidth = 4
+vim.opt.cmdheight = 2
+vim.opt.smartindent = true
+vim.opt.pumheight = 10
+vim.opt.ignorecase = true
+vim.opt.conceallevel = 0
+vim.opt.wrap = true
+vim.opt.termguicolors = false
