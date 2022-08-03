@@ -52,8 +52,10 @@ return packer.startup(function(use)
   'kyazdani42/nvim-tree.lua', -- nvim_tree
   requires = {
     'kyazdani42/nvim-web-devicons', -- for nvim_tree file icons
-  },
-}
+	  },
+	}
+  use "akinsho/bufferline.nvim" -- bufferline
+	use "moll/vim-bbye" -- delete buffers and close files without closing your windows or messing up layout
 	-- package manager
 	use("wbthomason/packer.nvim")
 	-- colorscheme
