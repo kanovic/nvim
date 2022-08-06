@@ -157,7 +157,7 @@ nvim_tree.setup { -- BEGIN_DEFAULT_OPTS
           exclude = {},
         },
         open_file = {
-          quit_on_open = false,
+          quit_on_open = true,
           resize_window = true,
           window_picker = {
             enable = true,
