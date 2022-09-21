@@ -4,7 +4,7 @@
 require "koen.options"
 require "koen.keymaps"
 require "koen.plugins"
-require "koen.colorscheme"
+-- require "koen.colorscheme"
 require "koen.cmp"
 require "koen.lsp"
 require "koen.telescope"
