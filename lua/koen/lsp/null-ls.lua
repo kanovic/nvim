@@ -5,9 +5,6 @@ end
 
 null_ls.setup({
     sources = {
-				-- formatting
 				null_ls.builtins.formatting.prettier_standard, -- javascript
-				-- linters
-        null_ls.builtins.diagnostics.xo, -- javascript
     },
 })
